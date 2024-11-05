@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ejercicios JS_04 - Matrices y bucles</title>
+</head>
+
+<body>
+
+    <h1>Ejercicios JS_04 - Matrices y bucles </h1>
+
+    <hr>
+
+    <div class="container-practice">
+
+        <h2 id="title-practice">Practice 1 - Sum of Resistors in Series</h2>
+
+        <p>Calculate the sum of all resistors connected in series.
+            Examples:</p>
+        <ul>
+            <li class="examples">sumResitance([-1,5,6,3])` should return `"15 ohms"`. (|−1| + 5 + 6 + 3 = 15)</li>
+            <li class="examples">sumResitance([14,3.5,6])` should return `'23.5 ohms'. (14 + 3.5 + 6 = 23.5)</li>
+            <li class="examples">sumResitance([8,15,100])` should return `'123 ohms'. (8 + 15 + 100 = 123)</li>
+        </ul>
+
+        <p>Note: This approach uses the absolute value of each resistance to ensure all values are positive.</p>
+
+        <button class="init-btn" id="init1" onclick="sumRest()">Inicializar</button>
+
+    </div>
+
+    <div class="container-practice">
+
+        <h2 id="title-practice">Practice 2 - Number divided into halves</h2>
+
+        <p>Given a number, return the number divided into its halves in an array. Examples:</p>
+        <ul>
+            <li class="examples">numDiv(4) should return `[2, 2]`.</li>
+            <li class="examples">numDiv(10)` should return `[5, 5]`.</li>
+        </ul>
+
+        <button class="init-btn" id="init1" onclick="numDiv()">Inicializar</button>
+
+
+    </div>
+
+    <div class="container-practice">
+
+        <h2 id="title-practice">Practice - 3 Secret Society</h2>
+
+        <p>Find the name of a secret society based on the first letter of each member's name. Examples:</p>
+        <ul>
+            <li class="examples">secretName(["Esperanza", "Franco", "Nia"])` should return `'EFN'`.</li>
+            <li class="examples">secretName(['Phoebe', 'Ross', 'Chandler', 'Joey', 'Monica', 'Rachel'])` should return
+                `'CJMPRR'`.</li>
+            <li class="examples">secretName(['Harry', 'Ron', 'Hermione'])` should return `'HHR'`.</li>
+        </ul>
+
+        <button class="init-btn" id="init1" onclick="idSocietySecret()">Inicializar</button>
+
+    </div>
+
+    <div class="container-practice">
+
+        <h2 id="title-practice">Practice 4 - Online status</h2>
+
+        <p>Display online status for a list of users. Examples:</p>
+        <ul>
+            <li class="examples">onlineStatus(['mockIng99', 'J0eyPunch', 'glassedFer'])` should return `'mockIng99, J0eyPunch and 1 more online'`.</li>
+        </ul>
+
+        <button class="init-btn" id="init1" onclick="onlineStatus()">Inicializar</button>
+
+    </div>
+
+    <div class="container-practice">
+
+        <h2 id="title-practice">Practice 5 - Array of Multiples</h2>
+
+        <p>Create a function that takes two parameters (number, length) and returns an array of length containing multiples of the number. Examples:</p>
+        <ul>
+            <li class="examples">arrayMultiplos(2, 10)` should return `[2, 4, 6, 8, 10, 12, 14, 16, 18, 20]`.</li>
+            <li class="examples">arrayMultiplos(17, 6)` should return `[17, 34, 51, 68, 85, 102]`.
+            </li>
+        </ul>
+
+        <button class="init-btn" id="init1" onclick="arrayOfMultiples()">Inicializar</button>
+
+    </div>
+    <div class="container-practice">
+
+        <h2 id="title-practice">practice 6 - Positive dominance in Array</h2>
+
+        <p>Write a function to determine if an array is positively dominant.
+            An array is positively dominant when the majority of its elements are positive.Examples:</p>
+        <ul>
+            <li class="examples">positiveDom([-1, -3, -5, 4, 6767])` should return `false`.</li>
+        </ul>
+
+        <button class="init-btn" id="init1" onclick="positiveDom()">Inicializar</button>
+
+    </div>
+    <div class="container-practice">
+
+        <h2 id="title-practice">Practice 7 - Antipodal Average</h2>
+
+        <p>Given an array, return a shorter array following these steps:</p>
+        <ul>
+            <li>Split the array into two equal parts*. If unequal, remove the middle element to obtain two equal arrays.</li>
+            <li>Sum each number of the first part with the inverse numbers of the second part.</li>
+            <li> Divide each number of the resulting array by 2.</li>
+        </ul>
+
+        <p>Example:</p>
+
+        <ul>
+            <li class="examples">For the array `[1,2,3,5,22,6]`, the result should be `[3.5, 12, 4]`.</li>
+        </ul>
+
+        <button class="init-btn" id="init1" onclick="antipodalAverage()">Inicializar</button>
+
+    </div>
+
+
+    <script src="js-04.js"></script>
+</body>
+
+</html>

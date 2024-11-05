@@ -1,0 +1,51 @@
+body {
+
+    background-color: black;
+    color: tomato;
+    text-align: center;
+
+}
+
+.container-practice{
+
+    background-color: tomato;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    margin: 10px;
+    text-align: left;
+
+}
+
+.container-answer {
+
+    background-color: green;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 30px;
+    margin: 10px;
+    text-align: left;
+
+}
+
+
+
+#title-practice {
+
+    text-align: center;
+
+}
+
+
+.init-btn{
+
+    display: block;
+}
+
+#init1 {
+
+    display: block;
+
+}
